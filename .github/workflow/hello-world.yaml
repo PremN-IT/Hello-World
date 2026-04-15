@@ -6,5 +6,5 @@ job:
     steps:
       - name: Hello Step
         run:
-          echo "this is line one"
-          echo "this is line two"
+          echo "This is Premkumar CI-CD Pipeline"
+      
