@@ -4,8 +4,19 @@ on:
   workflow_dispatch:
 
 jobs:
-  hello:
+  build:
     runs-on: ubuntu-latest
     steps:
-      - name: Hello Step
-        run: echo "This is Premkumar CI-CD Pipeline"
+      - name: Hello build
+        run: echo "This is build stage"
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Hello test
+        run: echo "This is test stage"
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Hello deploy
+        run: echo "This is deloy stage"
+    
