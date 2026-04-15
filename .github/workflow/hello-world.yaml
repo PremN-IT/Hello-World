@@ -1,10 +1,11 @@
 name: Hello-World
-on: workflow_dispatch
-job:
-  hello:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Hello Step
-        run:
+on: 
+  workflow_dispatch:
+  job:
+    hello:
+      runs-on: ubuntu-latest
+      steps:
+        - name: Hello Step
+          run:
           echo "This is Premkumar CI-CD Pipeline"
       
