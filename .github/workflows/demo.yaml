@@ -7,6 +7,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Hello build
-        run: echo "Hello, ${{ vars.MY-NAME}}"
+        run: echo "Hello, ${{ vars.MY_NAME }}"
  
      
